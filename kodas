@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Title</title>
+</head>
+    <body>
+    <div class="home" id="home">
+<div class="date">
+    <h1 class="size">Jane & John</h1>
+    <h2>Are getting married</h2>
+    <h2> 17.07.2017</h2>
+</div>
+    </div>
+
+    <div class="intro" id="us">
+        <div class="starter">
+            <h1 class="title">Jane&John</h1>
+            <img class="background" src="wedding_couple2.png">
+            <p class="para"><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+            <p class="button"><a class="wedding" href="#wed">Wedding details</a></p>
+        </div>
+    </div>
+    <div class="flowers">
+        <div class="invitation">
+            <h1>You Are Invited</h1>
+            <h2>Of course..</h2>
+        </div>
+    </div>
+
+    <div class="intro" id="wed">
+        <div class="location">
+            <h1 class="title">THE WEDDING</h1>
+            <img class="background" src="wedding_location.jpg">
+            <div class="father">
+                <div class="one">
+                    <h1>When</h1>
+                    <p style="margin: 10px">Wedding Ceremony - 2:00pm</p>
+                    <p style="margin: 10px">Reception & Dinner - 5:00pm</p>
+                </div>
+                <div class="two">
+                    <h1>Where</h1>
+                    <p style="margin: 10px">Some place, an address</p>
+                    <p style="margin: 10px">Some where, some address</p>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="invite" id="RSVP" >
+        <h1>HOPE YOU CAN MAKE IT!</h1>
+        <p style="font-size: 20px;margin: 20px 0">Kindly Respond By January 2017</p>
+        <p><button onclick="document.getElementById('id01').style.display='block'" class="click">RSVP</button></p>
+    </div>
+        <div id="id01" class="box">
+            <div class="inside">
+                <h1 class="come">CAN YOU COME?</h1>
+                <p class="para">We really hope you can make it.</p>
+                <form><input class="form" type="text" placeholder="Name(s)" name="name"></form>
+                <p class="para"><i>Sincerely, John & Jane</i></p>
+                <div class="coming">
+                    <div class="press green1">
+                        <button class="green looks" onclick="document.getElementById('id01').style.display='none'" type="button">Going</button>
+                    </div>
+                    <div class="press red1">
+                        <button class="red looks" onclick="document.getElementById('id01').style.display='none'" type="button">Cant come</button>
+                    </div>
+            </div>
+        </div>
+        </div>
+            <div class="w3">
+                <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" style="color:inherit;">w3.css</a></p>
+            </div>
+    <div class="bottom">
+        <div class="navs">
+            <a class="navb" href="#home">Home</a>
+            <a class="navb" href="#us">Us</a>
+            <a class="navb" href="#wed">Wedding</a>
+            <a class="navb" href="#RSVP">RSVP</a>
+        </div>
+    </div>
+    </body>
+</html>

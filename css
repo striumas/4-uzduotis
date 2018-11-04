@@ -1,0 +1,286 @@
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     font-family: "Raleway", sans-serif;
+     filter: grayscale(20%);
+ }
+
+.filter {
+    filter: none;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1,h2 {
+    margin:10px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 2;
+    font-size: 17px;
+}
+/* first picture */
+.home {
+    background:url("wedding_couple.png") center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+.size {
+    font-size: 70px;
+}
+/*jane & john */
+.intro {
+    padding: 60px;
+    background-color: bisque;
+    margin: auto;
+}
+
+.starter {
+    color: gray;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.para {
+    margin: 15px 0;
+}
+
+.title {
+    font-size: 40px;
+    color:gray;
+    font-weight: bolder;
+}
+
+.wedding {
+    background-color: black;
+    color: white;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius: 4px;
+}
+
+.wedding:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.button {
+    margin: 20px 0;
+    padding: 24px;
+    text-align: center;
+}
+/* invitation */
+.flowers {
+    background:url("flowers.png") center;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+
+.invitation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+/* time & place */
+.background {
+    width: 100%;
+    margin:64px 0;
+    border-radius: 4px;
+}
+
+.location {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.one {
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+}
+
+.father {
+    height: 200px;
+}
+
+.two {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ending {
+    text-align: center;
+    background-color: bisque;
+    margin: auto;
+}
+/* participation */
+#id01 {
+    position: fixed;
+    z-index: 3;
+    overflow: auto;
+}
+
+.box {
+    position: fixed;
+    display: none;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    background-color: white;
+}
+
+.inside {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 32px;
+    max-width: 600px;
+}
+
+.come {
+    letter-spacing: 6px;
+    margin: 15px 0;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+}
+
+.coming {
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.press {
+    float: left;
+    width: 50%;
+}
+.red1 {
+    background-color:red;
+}
+
+.green1 {
+    background-color: green;
+}
+
+.looks {
+    border: none;
+    font-size: 15px;
+    padding: 8px 0;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+ background-color: red;
+}
+
+.invite {
+    padding: 60px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: bisque;
+    filter: none;
+}
+
+.click {
+    background-color: #f44336;
+    color: white;
+    opacity: 0.60;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 10px 50px;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.click:hover {
+  background-color: lightgray;
+    color: black;
+}
+/* bottom */
+.w3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.come {
+    letter-spacing: 4px;
+    margin: 15px 0;
+}
+
+.bottom {
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    width: 100%;
+    margin: 0;
+}
+.navs {
+    text-align: center;
+    padding:10px 15px;
+    height:50px;}
+.navb {
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    color: black;
+}
+
+.navb:hover {
+   background-color: lightgray;
+   color:black;
+}
